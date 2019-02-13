@@ -1,0 +1,122 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+  /* * { outline: 1px dotted red; } */
+p{
+      margin: 0px;
+      padding: 10px;
+      font-size: 12px;
+
+}
+body{    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 970px;
+    padding: 20px;
+}
+.main-content{
+    background-color: rgb(34, 13, 1);
+    margin: 0px auto;
+    padding: 20px;
+}
+.header{
+    width: 960px;
+    background-color: beige;
+    display: block;
+    padding: 5px;
+    margin: 0px auto;
+}
+    .header h2{
+        width: 380px;
+        display: inline-block;
+        font-style:  italic;
+        font-family: 'Franklin Gothic Medium', Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .header h3{
+        width: 550px;
+        display: inline-block;
+        text-align: right;
+        margin-right: 15px;
+        font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    }
+    
+.photo{
+    width: 380px;
+    display: inline-block;
+    border: 5px solid silver;
+    margin: 10px 15px 10px 0;
+}
+.imgMain{
+    width: 380px;
+}
+.about{
+    vertical-align: top;
+    background-color: rgb(255, 253, 253);
+    width: 500px;
+    display: inline-block;
+    text-align: left;
+    margin: 10px 15px 10px 0;
+    min-height: 260px;
+    /* padding: 15px; */
+}
+    .about h3{
+        padding: 10px;
+        color: white;
+        display: block;
+        background-color: silver;
+        text-align: left;
+    }
+    .about a{
+        padding: 10px;
+        font-size:  16px;
+    }
+.box{
+    display: inline-block;
+    width: 290px;
+    background: linear-gradient(to right, white , #6F5964);;
+    min-height: 300px;
+    margin: 10px 15px 10px 0;
+    padding-bottom: 15px;
+
+}
+.box-head-tech{
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(180deg, darkgray, gray, darkgray);
+    padding: 10px 10px 10px 10px;
+}
+.img290{
+    width: 290px;
+}
+.img40{
+    width: 40px;
+    padding: 5px;
+}
+.img20{
+    width: 20px;
+}
+.footer-content{
+    text-align: center;
+}
+.footer p{
+    text-align: center;
+}
+.button{
+    background-color: #407D61;
+    box-shadow: 2px 2px 5px black;;
+    border-radius: 5px;
+    padding: 5px;
+    width: 110px;
+    margin: 5px 0 0 90px;
+    text-align: center;
+}
+.project-link{
+    color:white;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+}
