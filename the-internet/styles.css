@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 1px dotted red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper{
+    width: 970px;
+    margin: 0 auto;
+}
+#header-top{
+margin-bottom: -15px;
+}
+#header-top img{
+width: 80px;
+vertical-align: middle;
+}
+#header-top h1{
+display: inline;
+margin: 20px 0 0 10px;
+vertical-align: middle;
+font-weight: normal;
+color: rgb(37, 35, 35);
+
+
+}
+#header-top h1 span{
+color: blue;
+}
+#header h2{
+    padding: 10px 0 10px 20px;
+    width: 950px;
+    background: blue;
+    color: white;
+    font-weight: normal;
+}
+#side-panel{ 
+    display: inline-block;
+    width: 160px;
+    vertical-align: top;
+
+}
+#main-content{
+    display: inline-block;
+    width: 805px;
+}
+
+#ninja {
+    padding: 20px 0;
+background-image: url(images/ad_background.png)
+}
+#ninja p{
+ widows: 160px;
+ margin: 0 10px;
+ text-align:  center;
+ color: white;
+ font-size: 18px;
+ padding: 20px 0;
+
+}
+#ninja img{
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+}
+#main-left {
+    width: 200px;;
+    display: inline-block;
+    margin: 0 0 30px 10px;
+    vertical-align: top;
+}
+#main-left img{
+    width: 30px;
+   vertical-align: middle;
+    margin: 0 auto;
+}
+#main-left h3{
+    width: 100px;
+    display: inline-block;
+    margin: 0 auto;
+    font-weight: normal;
+    vertical-align: middle;
+
+}
+#main-right img{
+    width: 30px;
+
+    margin: 0 auto;
+}
+#main-right{
+    display: inline-block;
+    width: 175px;
+    margin: 0 0 0 410px;
+    vertical-align: top;
+
+}
+#main-right div{
+    display: inline-block;
+    width: 140px;
+}
+#main-right p{
+    display: inline-block;
+    width: 140px;
+    font-size:  10px;
+
+}
+#tollfree{
+    display: inline-block;
+    width: 140px;
+    font-size: 14px;
+    color: blue;
+
+}
+#client-servers {
+    display: inline-block;
+}
+#client-servers h4{
+    display: inline-block;
+    width: 250px;
+}
+#client-servers p{
+    display: inline-block;
+    width: 250px;
+}
+#client-servers ol{
+    display: inline-block;
+    width: 250px;
+}
+#client-servers ul{
+    display: inline-block;
+    width: 250px;
+}
+#client-servers li{
+    display: inline-block;
+    width: 250px;
+}
+#client-servers img{
+    width: 250px;
+}
+#big3 {
+    display: inline-block;
+    width: 250px;
+}
+#big3 div{
+    display: inline-block;
+    width: 250px;
+}
+#big3 div p{
+    display: inline-block;
+    width: 250px;
+}
+#big3 div h4{
+    display: inline-block;
+    width: 250px;
+}
+#big3 img{
+    width: 100px;
+}
+

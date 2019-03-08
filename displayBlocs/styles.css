@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* * { outline: 1px dotted red; } */
+.wrapper{
+    width: 700px;
+    background-color: #d3d1ad;
+    margin: 0px auto;
+    padding: 15px;
+}
+div {
+    display: inline-block;
+}
+.top2{
+    display: inline-block;
+    background-color: white;
+    height: 50px;
+}
+img{
+    width: 100px;
+}
+h1{
+display: inline-block;
+}
+.header{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.blue{
+    border: 3px solid black;
+    padding: 15px;
+    background-color: blue
+}
+.red{
+    background-color: red;
+    padding: 15px;
+    border: 3px solid black;
+    height: 100px;
+}

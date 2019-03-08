@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 1px dotted red; */
+}
+#wrapper{
+    width: 970px;
+    background: #1a1a1a;
+    margin: 0 auto;
+    min-height: 400px;
+    padding: 0px 8px;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main-image{
+    width: 970px;
+    border-bottom: 5px solid #4c4747fa;
+}
+#header-top{
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 75px;
+}
+    #header-top p{
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        display: inline-block;
+        width: 700px;
+        vertical-align: top;
+        text-align: end;
+    }
+#menu{
+    background: #383535fa;
+}
+    #menu li{
+    display: inline-block;
+    }
+    #menu .grey-border{
+    margin: 10px 0;
+    min-width: 80px;
+    text-align: center;
+    border-right: 2px groove #6f6b6b;
+    }
+    #menu .contact{
+    border-right: 2px groove #6f6b6b;
+    width: 410px;
+    padding: 10px 0;
+    }
+    #menu li a{
+    color: #b7b2b2;
+    padding: 0 15px;
+    font-size: 13px;
+    font-weight: bold;
+    }
+    #menu li a span{
+    color: #b7b2b2;
+    padding: 0 3px;
+    font-size: 8px;
+    font-weight: bold;
+    vertical-align: middle;
+    }
+    #menu li .active{
+    color: white;
+    }
+#features{
+    width: 970px;
+    background: #1b1919;
+    padding: 30px 0 30px;
+}
+
+    #features img{
+    padding: 0 10px 0 15px;
+    margin-top: -5px;
+    display: inline-block;
+    vertical-align: top;
+    }
+    #features h3 a{
+        color: #f58307;
+        font-weight: normal;
+        font-family: Georgia, serif;
+        padding-bottom: 10px;
+    }
+    #features h3{
+        padding-bottom: 10px;
+    }
+.feature{
+    display: inline-block;
+    vertical-align: top;
+    width: 165px;
+}
+    .feature p{
+        line-height: 1.5;
+        color: #ece9e9;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+#purchase{
+    width: 970px;
+    background: #050505;
+    padding: 30px 0;
+}
+    #purchase div{
+        width: 600px;
+        display: inline-block;
+        margin: 0 25px;
+
+    }
+    #purchase h2{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+    }
+    #purchase p{
+        color: #bbb9b9;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        margin-top: 5px;
+        line-height: 1.5;
+    }
+    #purchase button{
+        background: #f7870a;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        padding: 10px 25px;
+        color: white;
+        margin: 15px 0 20px 180px;
+        vertical-align: top;
+        border-radius: 5px;
+    }
+#portfolio{
+    width: 970px;
+    background: #1b1919;
+    color: white;
+}
+    #portfolio p a{
+        font-size: 12px;
+        color: #f58307;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 30px 20px 30px 752px;
+    }
+    #portfolio h3{
+        display: inline-block;
+        padding: 30px 0 30px 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+    }
+    #portfolio p{
+        display: inline-block;
+    }
+#items{
+    margin: 0 10px;
+    padding-bottom: 40px;
+}
+.items{
+    display: inline-block;
+    vertical-align: top;
+    width: 214px;
+    margin: 0 10px;
+}
+    .items h4{
+        padding: 15px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        color: #f58307;
+        font-family: Georgia, serif
+    }
+    .items img{
+        border: 5px solid #4c4747fa;
+        width: 206px;
+    }
+    .items p{
+        color: #ece9e9;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    #back-to-top{
+        font-size: 12px;
+        color: #aaa096;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 872px;
+    }

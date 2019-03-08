@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 1px dotted red;  */
+    font-family: Arial, Helvetica, sans-serif
+}
+#wrapper{
+    background-color: rgb(43, 91, 132);
+    width: 970px;
+    margin: 0 auto;
+}
+#header {
+    padding: 15px 15px 10px 30px;
+}
+    #header p{
+        margin: 0px 40px 10px;
+        text-align: end;
+        vertical-align: bottom;
+        color: white;
+        font-size: 12px;
+        
+    } 
+    #header p span{
+        color: rgba(43, 40, 38, 0.884);
+        margin: 3px;
+    } 
+.header-right{
+    width: 546px;
+    /* padding: 10px 10px; */
+    display: inline-block;
+    text-align: end;
+    vertical-align: top;
+    color: white;
+}
+     .header-right a{
+        color: rgb(255, 208, 0);
+        text-decoration: none;
+    } 
+    #header input{
+        min-height: 33px;
+        border-style: none;
+        min-width: 180px;
+        vertical-align: middle;
+    }
+    #header button{
+        min-height: 30px;
+        /* width: 35px; */
+        box-shadow: 1px 1px 1px black;
+        border-radius: 5px;
+        background-color: rgb(43, 91, 132);
+        padding: 6px 9px;
+        color: white;
+    }
+    #header li{
+        display: inline;
+        margin: 20px;
+    }
+
+#menu{
+    background-color: rgb(55, 118, 171);
+    padding: 10px 0;
+    font-size: 22px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    width: 820px;
+    margin: 15px auto;
+}
+    #menu a{
+        text-decoration: none;
+        color: white;
+    }
+img{
+    width: 370px;
+    display: inline-block;
+}
+.search{
+    display: inline-block;
+    width: 250px;
+    min-height: 36px;
+    background-color: rgba(43, 40, 38, 0.884);
+    padding: 15px 30px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px black;    
+}
+#main-content{
+    width: 800px;
+    margin: 10px auto;
+}
+#links{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    font-size: 18px;
+    vertical-align: top;
+    margin: 20px auto;
+}
+    #links span{
+        color: rgb(241, 202, 72);
+        font-size: 9px;
+        font-weight: bold;
+        margin-right: 5px;
+        text-decoration: none; 
+    }
+    #links li{
+        margin-bottom: 10px;
+    }
+    #links a{
+        color: white;
+    }
+#info{
+    display: inline-block;
+    width: 625px;
+    text-align: center;
+}
+    #info p{
+        color: white;
+        font-size: 14px;
+        margin: 0 0 15px 30px;
+        
+    }
+    #info h3{
+        color: rgb(241, 202, 72);
+        font-weight: normal;
+        font-style: italic;
+        margin-bottom: 15px;
+    }
+    #info h4{
+        color: white;
+        font-weight: normal;
+        margin-bottom: 15px;
+    }
+#bottom-boxes{
+    background-color: white;
+    display: block;
+
+    margin: 0 auto;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 40px;
+    
+}
+    #bottom-boxes ul{
+        margin-left: 50px;
+        list-style: square;
+        color:black;
+    }
+    #bottom-boxes li a{
+        color: rgb(136, 180, 219);
+    }
+    #bottom-boxes li{
+        margin: 10px auto;
+    }
+    #bottom-boxes h4{
+        margin: 10px;
+    }
+    #bottom-boxes span a{
+        color: rgb(136, 180, 219);
+    }
+    #bottom-boxes p{
+        margin: 5px 20px;
+        list-style: square;
+        font-size: 14px;
+    }
+#bottom-left{
+    border-top: 4px solid #73a7d5;
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+}
+#bottom-right{
+    border-top: 4px solid #73a7d5;
+    margin: 0 0px 0 20px;
+    display: inline-block;
+    width: 400px;
+}
+#footer{
+    background-color: rgb(43, 91, 132);
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+    #footer ul{
+        list-style: none;
+        margin: 40px auto 20px auto;
+    }
+    #footer a{
+        color: rgb(136, 180, 219);
+        font-size: 18px;
+    }
+    #footer li{
+        display: inline;
+        margin: 20px;
+    }
+    #footer p{
+        font-size: 10px;
+        height: 20px;
+        color: rgb(136, 180, 219);
+    }
+
+    
